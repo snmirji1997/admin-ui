@@ -76,7 +76,7 @@ const EditUser = ({ users, setUsers, userId, setModalShow, ...props }) => {
           color="error"
           onClick={() => setModalShow(false)}
         >
-          Cancel
+          cancel
         </Button>
         <Button variant="outlined" color="success" onClick={submitHandler}>
           Confirm
